@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/imgbtnNguoiThan1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bg_oval"
+                    android:contentDescription="Trợ giúp gọi điện thoại cho người thân"
+                    android:src="@drawable/zion_loi"
+                    android:scaleType="centerCrop"
+                    android:clipToOutline="true" />
+
+                <TextView
+                    android:id="@+id/tvTraLoi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/imgbtnNguoiThan2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bg_oval"
+                    android:contentDescription="Trợ giúp gọi điện thoại cho người thân"
+                    android:src="@drawable/j97"
+                    android:scaleType="centerCrop"
+                    android:clipToOutline="true" />
+
+                <TextView
+                    android:id="@+id/tvTraLoi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/imgbtnNguoiThan3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bg_oval"
+                    android:contentDescription="Trợ giúp gọi điện thoại cho người thân"
+                    android:src="@drawable/kha_banh"
+                    android:scaleType="centerCrop"
+                    android:clipToOutline="true" />
+                <TextView
+                    android:id="@+id/tvTraLoi3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/imgbtnNguoiThan4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bg_oval"
+                    android:contentDescription="Trợ giúp gọi điện thoại cho người thân"
+                    android:src="@drawable/son_tung_mtp"
+                    android:scaleType="centerCrop"
+                    android:clipToOutline="true" />
+                <TextView
+                    android:id="@+id/tvTraLoi4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/imgbtnNguoiThan5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bg_oval"
+                    android:contentDescription="Trợ giúp gọi điện thoại cho người thân"
+                    android:src="@drawable/hoang_nam_tien"
+                    android:scaleType="centerCrop"
+                    android:clipToOutline="true" />
+                <TextView
+                    android:id="@+id/tvTraLoi5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/imgbtnNguoiThan6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/bg_oval"
+                    android:contentDescription="Trợ giúp gọi điện thoại cho người thân"
+                    android:src="@drawable/xuan_son"
+                    android:scaleType="centerCrop"
+                    android:clipToOutline="true" />
+                <TextView
+                    android:id="@+id/tvTraLoi6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnThanks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thank you"
+            android:background="@drawable/bg_blue_corner_10"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

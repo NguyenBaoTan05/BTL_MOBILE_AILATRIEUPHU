@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_trangchu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="14sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Username"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:inputType="text"
+            android:background="@drawable/rounded_correr"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:inputType="textPassword"
+                android:background="@drawable/rounded_correr"/>
+
+            <ImageButton
+                android:id="@+id/imgbtnEye"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_eye"
+                android:layout_alignEnd="@+id/txtPassword"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="27dp"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/btn_login"
+            android:fontFamily="sans-serif-medium"
+            android:text="Đăng nhập"
+            android:textColor="#4277AE"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Dành cho Admin"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

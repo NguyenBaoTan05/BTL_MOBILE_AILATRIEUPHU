@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_trangchu"
+    android:orientation="vertical">
+
+    <!--time, logo and money-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="100dp"
+            android:background="@drawable/bg_blue_corner_10"
+            android:drawableLeft="@drawable/icon_time"
+            android:drawablePadding="5dp"
+            android:text="60"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:layout_height="25dp"/>
+
+        <!--logo-->
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/img_logo" />
+
+        <TextView
+            android:id="@+id/tvTienThuong"
+            android:layout_width="100dp"
+            android:background="@drawable/bg_blue_corner_10"
+            android:drawableLeft="@drawable/icon_money"
+            android:drawablePadding="5dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:layout_height="25dp"/>
+    </LinearLayout>
+
+    <!--quyền trợ giúp-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Space
+            android:id="@+id/space1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn5050"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="50/50"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_oval_blue"
+            android:contentDescription="Trợ giúp 50 50" />
+
+        <Space
+            android:id="@+id/space2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/imgbtnCall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_oval_blue"
+            android:contentDescription="Trợ giúp gọi điện thoại cho người thân"
+            android:src="@drawable/icon_call" />
+
+        <Space
+            android:id="@+id/space3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/imgbtnAskTheAudience"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_oval_blue"
+            android:contentDescription="Trợ giúp hỏi ý kiến khán giả trong trường quay"
+            android:src="@drawable/icon_users" />
+
+        <Space
+            android:id="@+id/space4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/imgbtnOnSiteAdvisory"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_oval_blue"
+            android:contentDescription="Trợ giúp tổ tư vấn tại chỗ"
+            android:src="@drawable/icon_user_question" />
+
+        <Space
+            android:id="@+id/space5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:id="@+id/imgbtnEndGame"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_oval_blue"
+            android:contentDescription="Dừng cuộc chơi"
+            android:src="@drawable/icon_flag" />
+
+        <Space
+            android:id="@+id/space6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <!--câu hỏi-->
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Không có câu hỏi"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:padding="30dp"
+        android:background="@drawable/bg_hexagon_question"/>
+
+    <!--đáp án-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnAnswerA"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="A: "
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="@drawable/btn_answer"/>
+
+        <Button
+            android:id="@+id/btnAnswerB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="B: "
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="@drawable/btn_answer"/>
+
+        <Button
+            android:id="@+id/btnAnswerC"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="C: "
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="@drawable/btn_answer"/>
+
+        <Button
+            android:id="@+id/btnAnswerD"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="D: "
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="@drawable/btn_answer"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BTL_AiLaTrieuPhu</string>
+    <string-array name="answers_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="difficulty_array">
+        <item>Dễ</item>
+        <item>Thường</item>
+        <item>Khó</item>
+    </string-array>
+</resources>

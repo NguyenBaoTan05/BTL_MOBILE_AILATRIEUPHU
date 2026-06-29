@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="false"
+        android:drawable="@drawable/bg_hexagon_answer"/>
+
+    <!-- Trạng thái khi nhấn (độ trong suốt giảm) -->
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/bg_hexagon_answer_pressed"/>
+</selector>

@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+  <path
+      android:pathData="M2.338,
+                        2L0.672,
+                        10L2.338,
+                        18L17.662,
+                        18L19.328,
+                        10L17.662,
+                        2L5.338,2z"
+      android:fillColor="#3e358d"
+      android:strokeColor="#ffffff"
+      android:strokeWidth="0.3"/>
+</vector>
+
+<!--hình gốc là M5.338, 10L5.338, 18L14.662, 10L14.662 =))-->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đánh giá chúng tôi"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5"
+        android:layout_gravity="center"
+        android:progressTint="#FFCC01"/>
+
+    <Button
+        android:id="@+id/btnXacNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận"
+        android:background="@drawable/bg_blue_corner_10"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>
