@@ -248,11 +248,6 @@ Three Layer Architecture
 * Thêm bảng xếp hạng toàn cầu.
 * Chia sẻ kết quả lên mạng xã hội.
 
-# TÀI KHOẢN DEMO
-
-Tên đăng nhập: admin
-
-Mật khẩu: admin123
 
 (Có thể thay đổi tùy dữ liệu khởi tạo trong SQLite)
 
